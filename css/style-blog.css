@@ -1,0 +1,160 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Handlee|Montserrat:400,700&display=swap');
+
+
+
+
+
+
+
+
+
+main.blog section.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main.blog section article {
+    width: 44%;
+    margin: 20px 3%;
+}
+
+
+
+main.blog section article .imagen {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+
+main.blog section article .imagen div {
+    position: absolute;
+    background-color: #fa573ac7;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 36px;
+    padding: 10px 15px;
+    width: 100px;
+    text-align: center;
+
+}
+
+main.blog section article .columna {
+    width: 100%;
+    padding: 1.25em 0;
+}
+
+
+main.blog section article .columna h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+main.blog section .columna h4 {
+    color: #fa573a;
+    font-weight: 700;
+    margin: 0.5em 0;
+    padding: 10px 0;
+    font-size: 1.1em;
+}
+
+main.blog section .columna p {
+    margin-bottom: 1em;
+    color: #aaa;
+    font-size: 1em;
+    line-height: 1.5em;
+
+}
+
+main.blog section .columna .enlace {
+    font-size: 1.1em;
+    padding: 10px 0;
+}
+
+
+main.blog section article .columna .enlace a {
+    display: block;
+    text-decoration: none;
+    color: #fa573a;
+    margin-top: 1em;
+    font-weight: 700;
+
+}
+
+main section article .enlace:hover i {
+    margin-left: 10px;
+    transition: .5s;
+}
+
+
+
+
+
+footer {
+    background-color: #21242e;
+    padding: 1.825em;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+@media(min-width:48.066em) {
+    header .nav_top a span {
+        display: inline;
+        font-size: 70%;
+    }
+
+}
+
+@media(min-width:62.750em) {
+    header .hamburguesa {
+        cursor: pointer;
+        display: none;
+        float: none;
+    }
+
+    header nav .menu {
+        padding-top: 0px;
+        float: right;
+    }
+
+    header nav .menu li {
+        display: inline-block;
+        padding: 0.5em 1.250em;
+        text-align: left;
+        border-bottom: 0px;
+    }
+
+    header nav .menu li:last-child {
+        padding-right: 0px;
+    }
+}
+
+@media(min-width:75.0625em) {
+
+
+    main section article {
+        width: 27.33%;
+        margin: 20px 3%;
+    }
+
+
+
+    .hero>div {
+        color: white;
+        padding: 9% 3%;
+        max-width: 1100px;
+        margin: 0 auto;
+
+
+    }
+}
